@@ -1,0 +1,99 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.bg-image {
+    /* The image used */
+    /* background-image: url("desktop-design.jpg"); */
+    background-color: #20bf55;
+    background-image: linear-gradient(90deg, #01baef 0%, #20bf55 74%);
+
+
+    /* Add the blur effect */
+
+    /* Full height */
+    height: 100%;
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+    /* background-color: rgb(0, 0, 0); */
+    /* Fallback color */
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    /* Black w/opacity/see-through */
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 25%;
+    height: 80%;
+    padding: px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+table {
+    height: 100%;
+    width: 100%;
+    border: none;
+    background-color: #ffffff;
+}
+
+td {
+    width: 25%;
+}
+
+tbody tr div {
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    margin: 0px 0px 1px 0px;
+    font-size: 20px;
+    color: #000000;
+    /* font-family: serif; */
+}
+
+tbody {
+    background-color: white;
+}
+
+tbody tr {
+    background-color: lightblue;
+
+}
+
+tbody td :hover {
+    cursor: pointer;
+}
+
+thead {
+    background-color: black;
+    color: white;
+    height: 20%;
+}
+
+thead tr div{
+    color: white;
+    height: 19%;
+    width: 100%;
+    font-size: 25px;
+}
+
+th {
+    text-align: right;
+    padding-right: 50px;
+}
