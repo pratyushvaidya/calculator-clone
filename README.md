@@ -1,2 +1,2 @@
-# calculator-clone
+# calculator
  Calculator UI clone
